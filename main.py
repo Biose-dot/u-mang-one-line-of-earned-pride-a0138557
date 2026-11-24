@@ -1,24 +1,15 @@
 #!/usr/bin/env python3
-"""One Line of Earned Pride — make.fun entry.
+"""Draft entry writer for the earned-pride bounty (v1)."""
 
-Writes the entry text (no trailing newline, nothing else) to
-/output/entry.txt (or $MAKEFUN_OUTPUT_DIR/entry.txt).
-
-A concrete scene, a small person, a long effort finally landing; the pride arrives quietly in the last words, spoken by the one person whose praise was never given.
-"""
 import os
 
-ENTRY = 'After three years of night shifts, she held her nursing certificate with both hands while her father — a man who had never once said he was proud of anyone — finally said it to her.'
+ENTRY = "After three years of night shifts, she finally hung her own nameplate on the clinic door, and stood there a moment just reading it, smiling like the whole tired world had finally said thank you."
 
-
-def main() -> None:
+def main():
     out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
     os.makedirs(out_dir, exist_ok=True)
-    path = os.path.join(out_dir, "entry.txt")
-    with open(path, "w", encoding="utf-8") as f:
+    with open(os.path.join(out_dir, "entry.txt"), "w", encoding="utf-8") as f:
         f.write(ENTRY)
-    print(f"wrote {len(ENTRY)} chars to {path}")
-
 
 if __name__ == "__main__":
     main()
