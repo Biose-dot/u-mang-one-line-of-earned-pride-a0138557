@@ -3,7 +3,7 @@
 import os
 
 
-ENTRY = "She stayed late, fixed the bug nobody else could find, and never mentioned it. The next morning, everything just worked."
+ENTRY = "He carried the heavy box up three flights for his elderly neighbour, set it down gently, and waved off the thanks like it was nothing."
 
 
 def main():
