@@ -7,11 +7,11 @@
 Entry for the [make.fun](https://make.fun) bounty
 [One Line of Earned Pride](https://make.fun/c/u-mang-one-line-of-earned-pride-a0138557).
 
-A concrete scene, a small person, a long effort finally landing; the pride arrives quietly in the last words.
+A concrete scene, a small person, a long effort finally landing; the pride arrives quietly in the last words, spoken by the one person whose praise was never given.
 
 `main.py` (Python 3, standard library only) writes the entry to `/output/entry.txt`:
 
-> After three years of night shifts, she held her nursing certificate with both hands, and her father — who had never once said he was proud — finally did.
+> After three years of night shifts, she held her nursing certificate with both hands while her father — a man who had never once said he was proud of anyone — finally said it to her.
 
 Run it locally with:
 

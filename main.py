@@ -4,11 +4,11 @@
 Writes the entry text (no trailing newline, nothing else) to
 /output/entry.txt (or $MAKEFUN_OUTPUT_DIR/entry.txt).
 
-A concrete scene, a small person, a long effort finally landing; the pride arrives quietly in the last words.
+A concrete scene, a small person, a long effort finally landing; the pride arrives quietly in the last words, spoken by the one person whose praise was never given.
 """
 import os
 
-ENTRY = 'After three years of night shifts, she held her nursing certificate with both hands, and her father — who had never once said he was proud — finally did.'
+ENTRY = 'After three years of night shifts, she held her nursing certificate with both hands while her father — a man who had never once said he was proud of anyone — finally said it to her.'
 
 
 def main() -> None:
